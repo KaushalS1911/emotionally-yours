@@ -59,7 +59,7 @@ const CardSection = () => {
                     },
                     {
                         icon: <ShareIcon/>,
-                        title: "Join the Hiwell Online Therapists Network!",
+                        title: "Join the Emotionally Yours Online Therapists Network!",
                         description:
                             "With over 1,600 master's-level licensed therapists who have passed our rigorous interview process, we provide psychotherapy and psychological support to thousands of clients every day. Join this exceptional community today!",
                         buttonText: "Apply",

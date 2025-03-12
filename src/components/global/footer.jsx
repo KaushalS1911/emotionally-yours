@@ -63,7 +63,7 @@ const Footer = () => {
                                 >
                                     <img
                                         src={footerData.image}
-                                        alt="Hiwell Logo"
+                                        alt="Emotionally Yours Logo"
                                         style={{
                                             height: "100%",
                                             width: "auto",

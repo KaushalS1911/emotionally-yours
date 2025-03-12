@@ -31,7 +31,7 @@ function UserThink() {
                                     maxWidth: "640px"
                                 }}
                             >
-                                Preferred by over 1 million clients, Hiwell is here to support you
+                                Preferred by over 1 million clients, Emotionally Yours is here to support you
                                 every step of the way on your therapy journey!
                             </Typography>
                         </Box>

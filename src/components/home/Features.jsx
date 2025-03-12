@@ -27,7 +27,7 @@ const features = [
     icon: <LockIcon sx={{ fontSize: 40, color: "#2563eb" }} />,
     title: "Privacy",
     description:
-      "No session can be accessed or recorded by Hiwell or any third party.",
+      "No session can be accessed or recorded by Emotionally Yours or any third party.",
   },
 ];
 
@@ -36,7 +36,7 @@ const FeatureSection = () => {
     <Container maxWidth='xl'>
       <Box sx={{ py: 10, textAlign: "center", backgroundColor: "#ffffff" }}>
         <Typography variant="h4" fontWeight={700} gutterBottom>
-          Why Do Over 1 Million Clients <br /> Choose Hiwell?
+          Why Do Over 1 Million Clients <br /> Choose Emotionally Yours?
         </Typography>
 
         <Grid container spacing={3} justifyContent="center" sx={{ mt: 4 }}>

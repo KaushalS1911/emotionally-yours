@@ -106,7 +106,7 @@ const HeroSection = () => {
         </Grid>
 
         <Grid item xs={12} fontSize={24} color={"#212529"}>
-          Over 1.000.000 clients worldwide trust Hiwell.
+          Over 1.000.000 clients worldwide trust Emotionally Yours.
         </Grid>
       </Grid>
     </Box>

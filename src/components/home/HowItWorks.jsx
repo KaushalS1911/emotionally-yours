@@ -10,7 +10,7 @@ const steps = [
     img: Image1,
     title: "Get Matched with Your Therapist",
     description:
-      "Hiwell helps you connect with the therapist best suited for you by understanding your needs and therapy expectations through a few quick questions during registration.",
+      "Emotionally Yours helps you connect with the therapist best suited for you by understanding your needs and therapy expectations through a few quick questions during registration.",
   },
   {
     number: "2.",

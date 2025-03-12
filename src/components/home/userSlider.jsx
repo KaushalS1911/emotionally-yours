@@ -14,12 +14,12 @@ function UserSlider() {
         },
         {
             title:"Fav app",
-            description: "Hiwell has been a great help in managing my anxiety. My therapist is amazing, she is very knowledgeable and provides great insights that have helped me navigate my anxiety, and the privacy features make me feel comfortable opening up.",
+            description: "Emotionally Yours has been a great help in managing my anxiety. My therapist is amazing, she is very knowledgeable and provides great insights that have helped me navigate my anxiety, and the privacy features make me feel comfortable opening up.",
             name:"Melinda C."
         },
         {
             title:"High-quality therapy app",
-            description:"I've been going through a rough patch in my marriage, and Hiwell has helped me gain perspective and communicate better with my spouse. My therapist is non-judgmental and provides helpful insights. I appreciate the convenience of being able to access therapy from my phone.",
+            description:"I've been going through a rough patch in my marriage, and Emotionally Yours has helped me gain perspective and communicate better with my spouse. My therapist is non-judgmental and provides helpful insights. I appreciate the convenience of being able to access therapy from my phone.",
             name:"Daniel M."
         },
         {
@@ -29,27 +29,27 @@ function UserSlider() {
         },
         {
             title: "Excellent app",
-            description: "I've tried several online therapy apps, but Hiwell is the best. The clinical psychologists are all highly qualified and professional. I've been using it for a few weeks now, and I am so glad I found this app!",
+            description: "I've tried several online therapy apps, but Emotionally Yours is the best. The clinical psychologists are all highly qualified and professional. I've been using it for a few weeks now, and I am so glad I found this app!",
             name:"Emily B."
         },
         {
             title: "Great app",
-            description: "I was feeling overwhelmed with work and didn't know where to turn. A friend recommended Hiwell Online Therapy, and I gave it a shot. My therapist is so understanding and provides practical advice that has helped me manage my stress and anxiety. I highly recommend this app!",
+            description: "I was feeling overwhelmed with work and didn't know where to turn. A friend recommended Emotionally Yours Online Therapy, and I gave it a shot. My therapist is so understanding and provides practical advice that has helped me manage my stress and anxiety. I highly recommend this app!",
             name:"Lucas B."
         },
         {
             title: "Amazing!",
-            description: "I was initially skeptical about online therapy but Hiwell has exceeded my expectations. The fact that the sessions are entirely confidential is a huge plus, and I feel like I can open up and be honest with my therapist without any judgment. Highly recommended!",
+            description: "I was initially skeptical about online therapy but Emotionally Yours has exceeded my expectations. The fact that the sessions are entirely confidential is a huge plus, and I feel like I can open up and be honest with my therapist without any judgment. Highly recommended!",
             name:"Michael A."
         },
         {
             title: "Long time favorite",
-            description:"I've been using Hiwell for a few months now, and I'm so happy with the service. The therapists are all professional and compassionate, and the app is affordable compared to other therapy options.",
+            description:"I've been using Emotionally Yours for a few months now, and I'm so happy with the service. The therapists are all professional and compassionate, and the app is affordable compared to other therapy options.",
             name:"Olivia D."
         },
         {
             title: "Highly recommended",
-            description: "Hiwell has been a lifeline for me during a difficult time. The privacy and anonymity features are amazing - I feel safe opening up to my therapist. I highly recommend this app to anyone in need of support.",
+            description: "Emotionally Yours has been a lifeline for me during a difficult time. The privacy and anonymity features are amazing - I feel safe opening up to my therapist. I highly recommend this app to anyone in need of support.",
             name:"Scarlett R."
         },
         {
@@ -59,7 +59,7 @@ function UserSlider() {
         },
         {
             title: "Love my therapist",
-            description: "I've been dealing with depression for a while and hesitated to try therapy. But Hiwell has provided me with such a positive experience. My therapist is empathetic and has helped me understand the root causes of my depression.",
+            description: "I've been dealing with depression for a while and hesitated to try therapy. But Emotionally Yours has provided me with such a positive experience. My therapist is empathetic and has helped me understand the root causes of my depression.",
             name:"Debbie C."
         },
     ]
