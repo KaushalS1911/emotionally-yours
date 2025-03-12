@@ -11,14 +11,14 @@ const FAQSection = () => {
     ];
 
     return (
-        <Box sx={{background: "#F7F9FE"}}>
+        <Box sx={{background: "#F7F9FE" , marginTop:"100px"}}>
             <Container maxWidth={"lg"}>
                 <Box sx={{ py: 8, textAlign: "center" }}>
-                    <Typography variant="h4" fontWeight={700} gutterBottom>
+                    <Typography variant="h4" fontWeight={700} gutterBottom sx={{pb:2}}>
                         Frequently Asked Questions
                     </Typography>
                     {faqs.map((question, index) => (
-                        <Accordion key={index} sx={{ mb: 1 , p:1 , borderRadius: "12px"}}>
+                        <Accordion key={index} sx={{ mb: 2 , p:1 , borderRadius: "12px"}}>
                             <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                                 <Typography variant="body1">{question}</Typography>
                             </AccordionSummary>

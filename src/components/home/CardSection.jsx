@@ -46,6 +46,7 @@ const CustomCard = ({icon, title, description, buttonText}) => {
 
 const CardSection = () => {
     return (
+        <Box sx={{padding: "40px 0" ,margin:"40px 0"}}>
         <Container maxWidth="lg">
             <Grid container spacing={3} justifyContent="center" sx={{mt: 4}}>
                 {[
@@ -126,7 +127,7 @@ const CardSection = () => {
                 ))}
             </Grid>
         </Container>
-
+        </Box>
 
     );
 };

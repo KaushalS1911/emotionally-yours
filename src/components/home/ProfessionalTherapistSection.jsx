@@ -16,7 +16,7 @@ const professionalTherapists = [
 const ProfessionalTherapistSection = () => {
     return (
         <Container>
-            <Box sx={{ px: 6, py:8, background: "#F7F9FE" }}>
+            <Box sx={{ px: 6, py:8, background: "#F7F9FE" , borderRadius: "12px",my:5 }}>
                 <Grid container spacing={3} alignItems="center" justifyContent="center">
                     <Grid item xs={12} md={8}>
                         <Typography variant='h3' fontWeight={800} gutterBottom>
