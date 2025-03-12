@@ -6,6 +6,8 @@ import ProfessionalTherapistSection from "../components/home/ProfessionalTherapi
 import FAQSection from "../components/home/FAQSection.jsx";
 import CardSection from "../components/home/CardSection.jsx";
 import ArticleSlider from "../components/home/ArticleSlider.jsx";
+import UserSlider from "../components/home/userSlider.jsx";
+import UserThink from "../components/home/UserThink.jsx";
 
 
 const Home = () => (
@@ -14,6 +16,8 @@ const Home = () => (
         <Features/>
         <HowItWorks/>
         <ProfessionalTherapistSection/>
+        <UserThink />
+        <UserSlider/>
         <FAQSection/>
         <CardSection/>
         <ArticleSlider/>
