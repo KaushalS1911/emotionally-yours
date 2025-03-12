@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Typography, Box, Grid, useMediaQuery } from "@mui/material";
-import sidebarImage from '../../assets/home/mobile-mockup-enx2.webp';
+import sidebarImage from '../../assets/home/Untitled_design__6_-removebg-preview.png';
 import bg from "../../assets/home/hero-banner-bg.png";
 import disny from '../../assets/home/disney-logo.svg';
 import turkish from '../../assets/home/turkish-airlines-logo.svg';
