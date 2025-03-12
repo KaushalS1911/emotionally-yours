@@ -130,8 +130,8 @@ const Navbar = () => {
             >
                 <List sx={{color: "#000", padding: "0 8px"}}>
                     {menuItems.map((item, index) => (
-                        <Box key={index}>
-                            <Link to={item.path} style={{padding: "16px 0", fontWeight: 700}}>
+                        <Box key={index} sx={{padding: "16px 0"}}>
+                            <Link to={item.path} style={{padding: "16px 0",color:'#000', fontWeight: 700 ,textDecoration:"none"}}>
                                 {item.name}
                             </Link>
                         </Box>
