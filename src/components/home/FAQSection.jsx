@@ -12,7 +12,7 @@ const FAQSection = () => {
 
     return (
         <Box sx={{background: "#F7F9FE"}}>
-            <Container>
+            <Container maxWidth={"lg"}>
                 <Box sx={{ py: 8, textAlign: "center" }}>
                     <Typography variant="h4" fontWeight={700} gutterBottom>
                         Frequently Asked Questions
@@ -29,8 +29,8 @@ const FAQSection = () => {
                             </AccordionDetails>
                         </Accordion>
                     ))}
-                    <Typography variant="subtitle1" fontWeight={600} gutterBottom mt={4}>View All Frequently Asked Questions (FAQ)</Typography>
-                    <Button variant="contained" color="primary" sx={{ mt: 2 }}>
+                    <Typography variant="subtitle1" fontWeight={600} gutterBottom mt={4} sx={{color:"#0D6EFD"}}>View All Frequently Asked Questions (FAQ)</Typography>
+                    <Button variant="contained" color="primary" sx={{ mt: 2 , fontSize:"20px" , borderRadius:"12px" }}>
                         Get Started
                     </Button>
                 </Box>

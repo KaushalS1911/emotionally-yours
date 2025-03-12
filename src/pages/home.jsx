@@ -8,6 +8,7 @@ import CardSection from "../components/home/CardSection.jsx";
 import ArticleSlider from "../components/home/ArticleSlider.jsx";
 import UserSlider from "../components/home/userSlider.jsx";
 import UserThink from "../components/home/UserThink.jsx";
+import Help from "../components/global/help.jsx";
 
 
 const Home = () => (
@@ -16,11 +17,12 @@ const Home = () => (
         <Features/>
         <HowItWorks/>
         <ProfessionalTherapistSection/>
-        <UserThink />
+        <UserThink/>
         <UserSlider/>
         <FAQSection/>
         <CardSection/>
         <ArticleSlider/>
+        <Help/>
     </>
 );
 

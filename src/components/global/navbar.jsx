@@ -16,6 +16,7 @@ import LanguageIcon from "@mui/icons-material/Language";
 import logo from '../../assets/global/logo.jpg'
 import MenuIcon from "@mui/icons-material/Menu";
 import {useState} from "react";
+import {Link} from "react-router-dom";
 
 
 const Navbar = () => {
@@ -68,7 +69,14 @@ const Navbar = () => {
     //     }
     // };
 
-    const menuItems = ["How It Works", "About Us", "Psychotherapists", "Business", "Psychological Tests", "Join Us"];
+    const menuItems = [
+        {name:"How It Works", path:"/"},
+        {name:"About Us", path:"/"},
+        {name:"Psychotherapists", path:"/"},
+        {name:"Business", path:"/"},
+        {name:"Psychological Tests",path:"/test"},
+        {name:"Join Us",path:"/"},
+    ];
 
     return (
         <AppBar color="#000" elevation={0} sx={{
@@ -83,10 +91,10 @@ const Navbar = () => {
                 </Box>
 
                 <Box sx={{display: {xs: "none", lg: "flex"}, gap: 3}}>
-                    {menuItems.map((text, index) => (
-                        <Typography key={index} sx={{fontWeight: 700, color: "#000"}}>
-                            {text}
-                        </Typography>
+                    {menuItems.map((item, index) => (
+                        <Link to={item.path} key={index} style={{fontWeight: 700, color: "#000",textDecoration:"none"}}>
+                            {item.name}
+                        </Link>
                     ))}
                 </Box>
 
@@ -123,9 +131,9 @@ const Navbar = () => {
                 <List sx={{color: "#000", padding: "0 8px"}}>
                     {menuItems.map((item, index) => (
                         <Box key={index}>
-                            <Typography sx={{padding: "16px 0", fontWeight: 700}}>
-                                {item}
-                            </Typography>
+                            <Link to={item.path} style={{padding: "16px 0", fontWeight: 700}}>
+                                {item.name}
+                            </Link>
                         </Box>
                     ))}
                 </List>
